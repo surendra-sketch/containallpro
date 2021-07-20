@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>transparent</title>
+  <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/trans.css">
+</head>
+<body>
+ <div class="div1">
+ 	<div class="div2">
+ 		<div class="div3">
+ 			<div class="div4">
+ 				<div class="div5"></div>
+ 			</div>
+ 		</div>
+ 	</div>
+ </div>	
+
+ <section class="top"> 
+ 	<nav class="navlink">
+ 	<div class="navbar">
+ 		<h1 class="logo">LOgO</h1>
+ 		<!-- <img class="logo"  src="#"  alt=""> -->
+ 		<div  class="nav-link" id="links" >
+ 			<i onclick="hidemenu()" class="fa fa-times fa-3x"></i>
+ 			<ul>
+ 				 <li><a class="home" href="#">home</a></li>
+ 				 <li><a href="#">about</a></li>
+ 				 <li><a href="#">services</a></li>
+ 				 <li><a href="#">portfolio</a></li>
+ 				 <li><a href="#">contact</a></li>
+ 			</ul>
+ 		</div>
+ 		<i onclick="showmenu()" class="fa fa-bars fa-3x"></i>
+ 	</div>
+ 	</nav>
+
+ 	<h1 class="main-content">Company Name </h1>
+ 	<p class="main-content">Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Ab, ex, voluptatibus repudiandae, culpa suscipit deserunt neque blanditiis commodi voluptatem, debitis rem exercitationem quas minima quam est molestias voluptatum et vero quos praesentium eos expedita. Fugit omnis tempora culpa optio laboriosam quidem, ducimus iure possimus, eius rerum odit pariatur. Veniam, quaerat.</p>
+ 	<br>
+ 	<br>
+ 	 <span class="bttn"><a href="#" class="btn">Contact us</a>
+ 	 <a href="#" class="btn">About us</a></span>
+ </section>
+
+ 	 
+
+
+ <script>
+   
+
+ var navlinks =document.getElementById("links");
+          function showmenu() {
+            navlinks.style.right = "0";
+            
+          }
+          
+          function hidemenu() {
+            navlinks.style.right = "-200px";
+            
+          }
+
+    
+  
+
+
+</body>
+</html>

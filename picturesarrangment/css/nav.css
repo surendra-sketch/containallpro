@@ -1,0 +1,566 @@
+*{
+     margin: 0;
+     padding: 0;
+    
+}
+a{
+     text-decoration: none;
+}
+/* 
+.wrapper{
+     width: 100%;
+     height: 100%;
+}
+.navbar{
+     width:100%;
+     height: 60px;
+     background-color: #9972bf;
+}
+.navbar ul{
+     display: flex;
+     justify-content: center;
+     list-style: none;
+}
+.navbar ul li{
+     position: relative;
+}
+.navbar ul li a{
+     display: block;
+     color: #fff;
+     height: 60px;
+     text-align: center;
+     padding: 20px 10px;
+
+}
+.navbar ul li >a{
+     margin-right:10px;
+} */
+ /* body{
+      background-position: center;
+      height: 100vh;
+      background-size: cover; */
+ /* }
+.wrapper{
+   
+     width:900px;
+     margin: 0 auto;
+}
+.wrapper ul{
+     list-style: none;
+     margin-top: 2%;
+}
+.wrapper ul li{
+     background-color: #9972bf;
+     width: 170px;
+     border: 1px solid #fff;
+     height: 50px;
+      
+     text-align: center;
+     float: left;
+     padding: auto;
+     position: relative;
+}
+
+.wrapper ul li:hover{
+     background-color:#00f;
+}
+.wrapper ul ul {
+     display: none;
+}
+.wrapper ul ul{
+background-color: #22f;;
+}
+.wrapper ul li:hover >ul{
+     display: block;
+}
+.wrapper ul ul  ul{
+     margin-left: 170px;
+     top:0;
+}
+
+.wrapper ul ul  ul:hover >li{
+     
+     background-color: #f33;
+} */
+
+
+
+/* a{
+     text-align: center;
+     text-decoration: none;
+     color: #fff;
+} */
+/* .wrapper{
+     position: relative;
+     width:90%;
+     height: 100vh;
+     margin: auto;
+}
+ .menu ul{
+      list-style: none;
+      background-color: #7299bf;
+     display: flex;
+     justify-content:space-around;
+     align-items: center;
+     height: 60px;
+     
+ }
+  */
+/*   
+.menu ul li ul{
+     display: none;
+ }  
+ .menu ul li:hover ul{
+     
+      display: block;
+    
+    
+ }
+ .menu ul li:hover{
+    
+     background-color: #3f3;
+     color: #000;
+ }
+ .ddmenu{
+      position:relative;
+       
+      top:20px;
+     margin-left: -40px;
+
+ }
+  
+  
+ .ddmenu ul{
+      position:absolute;
+      height:200px;
+      display: block; 
+      width: 100px;
+     
+ }
+ .ddmenu ul:before{
+      content: " ";
+     left: 35%;
+     transform: translateX(-50%);
+     position:absolute;
+     top:-40px;
+     border: 20px solid;
+     z-index: 1;
+     border-color:transparent transparent #7299bf transparent;
+
+
+ }
+ .ddmenu ul li{
+      padding: 10px;
+
+ }
+ .menu ul li .ddmenu >ul{
+      position:absolute;
+      background-color: #999;
+      padding: 20px;
+      text-align: center;
+      margin-top:20px;
+      
+ }
+   */
+
+
+
+
+
+   .wrapper{
+        position: relative;
+        /* height: 100vh; */
+        width: 90%;
+        background-color: #ddd;
+        margin: auto;
+   }
+   .navbar{
+        position: absolute;
+        width: 100%;
+        background-color: #2323;
+   }
+   .navbar ul{
+        position: relative;
+        list-style: none;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        height: 60px;
+        justify-content: space-around;
+   }
+   .navbar ul li{
+        
+        padding:10px;
+        /* width: 10%; */
+        text-align: center;
+     
+   }
+   .navbar ul li>.ddmenu{
+        display: none;
+        
+        
+     }
+      
+   .navbar ul li:hover .ddmenu{
+      display: block;
+     
+
+}
+   .navbar ul li:hover{
+     background-color: #aaa;
+   }
+
+   
+
+
+
+  
+   .navbar ul li a{
+        text-align: center;
+        text-decoration: none;
+        text-transform:;
+        color:black;
+
+   }
+   .navbar ul li ul{
+        position: absolute;
+        background-color: #ccc;
+        display: block;
+        width: 200px;
+        height: 300px;
+        top: 80px;
+        margin-left:-90px;
+        z-index: 1;
+         
+
+   }
+   .navbar ul li:hover{
+        display: block;
+     
+   }
+   .navbar ul li ul:before{
+        content: " ";
+        position:absolute;
+        border: 30px solid;
+        border-color:transparent transparent  #ccc transparent;
+        z-index: 9;
+        top: -60px;
+        left: 50%;
+        transform: translateX(-50%);
+ 
+   }
+
+  .container{
+      top:60px;
+      width: 90%;
+      height: 100vh;
+      margin: auto;
+      position:relative;
+      background:linear-gradient(rgba(250,250,250,0.3),rgba(0,0,250,0.8)), url(../Picture/ocean.jpg) no-repeat center center/cover ;
+      border-radius:5px; 
+      margin-bottom:10px;
+ }
+ .content{
+      padding-top: 10%;
+      width:80%;
+      margin: auto;
+      transform: translateX(5%);
+ }
+
+ .content h1{
+      font-size: 40px;
+     color:#fff;    
+     text-transform: uppercase;
+     padding-bottom: 10px;
+     }
+   
+.content p{
+     color: aqua;
+
+}
+     .content .btn{
+          font-size: 1.4rem;
+          margin-top: 20px;
+          border: 2px solid #fff;
+          width:6rem;
+          height: 2.4rem;
+          background-color: #aaa;
+          border-radius:20px;
+          cursor: pointer;
+         
+     }
+     .content .btn:hover{
+          opacity: .7;
+           
+     }     
+     .content .btn a{
+          text-decoration: none;
+     }
+
+/* boxes */
+.container .boxes{
+      height: 200px;
+     margin-top: 50px;
+     padding: 10px;
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     grid-gap: 10px;
+}
+.container .boxes .box{
+     background-color: #ccc;
+     padding: 10px 5px;
+
+}
+.container .boxes .box h4{
+     text-transform: uppercase;
+     text-align: center;
+     padding-bottom: 10px;
+}
+.container .boxes .box p{
+     color: #222;
+}
+.container .boxes .box .btn{
+     padding: 6px;
+     margin-top: 5px;
+     border-radius: 5px;
+     background-color: #441;
+     text-decoration: none;
+}
+.container .boxes .box .btn a{
+     color: #fff;
+}
+.container .boxes .box .btn a:hover{
+     opacity: .7;
+}
+.butt{
+     height: 50px;
+     width: 40px;
+     position:absolute;
+     top: 0;
+     right:0;
+     font-size: 50px;
+     border: 2px solid #000;
+     
+     z-index: 2;
+     cursor: pointer;
+     display: none;
+} .social{ 
+     position:absolute;
+     background-color: #bbb;
+     width: 90%;
+     height: 90px;
+     margin: auto;
+     position:relative;
+     display: flex;
+     margin-top: 100px;
+     align-items: center;
+     justify-content: space-around;
+}
+.social .facebook{
+     margin-bottom: 30px;
+     background-color: #ccc;
+     width: 20%;
+     height: 40%;
+     text-align: center;
+     padding-top: 12px;
+     cursor: pointer;
+     box-shadow:10px 10px  10px #999;
+}
+ 
+.social .facebook:hover{
+        transform: translateY(-3px);
+    
+}
+.brand-name{
+     background-color: #bbb;
+     width: 90%;
+     height: 90px;
+     margin: auto;
+     position:relative;
+}
+.brand-name .name{
+     text-align: center;
+     font-size: 40px;
+     text-transform: uppercase;
+     z-index: 1;
+     background: transparent;
+     background:linear-gradient(rgba(250,250,250,0.3),rgba(0,0,250,0.8))
+}
+.footer{
+     background-color: #999;
+     width: 90%;
+     margin: auto;
+     position:relative;
+     margin-bottom: 20px;
+     
+}
+.footer .main-footer{
+     display: grid;
+     grid-template-columns: repeat(5,1fr);
+     
+}
+.footer .main-footer ul{
+     list-style: none;
+ }
+ .footer .main-footer ul li{
+      text-align: center;
+      padding: 5px;
+      color: #444;
+      font-size: 1.2rem;
+ }
+ .footer .main-footer ul li a{
+ color: #222; }
+ .footer .main-footer ul li:hover{
+      background-color: #ccc;
+      padding: 5px;
+      border-radius: 5px;
+  }
+
+@media(min-width:1025px){
+     .container{
+          height: 155vh;
+          margin-bottom: 100px;
+     }
+     .navbar ul li{
+          font-size:20px;
+     }
+     .content h1{
+          font-size: 60px;
+     }
+     .content  p    {    
+       font-size:30px;
+     }
+     .container .boxes{
+          margin-top: 100px;
+     }
+     .container .boxes .box{
+          height: 400px;
+     }
+     .container .boxes .box h4{
+          font-size: 30px;
+     }
+     .container .boxes .box p{
+          font-size: 27px;
+     }
+     .container .boxes .box .btn{
+          font-size: 20px;
+     }
+}
+
+
+@media(max-width:768px){
+     .container{
+          height:130vh;
+          
+     }
+     .navbar ul li{
+          font-size:15px;
+     }
+     .container .boxes{
+          
+          grid-template-columns: 1fr 1fr;
+     }
+     .butt{
+          display: block;
+     }
+     .navbar .menu{
+          top: 20;
+          left: 0;
+          position: absolute;
+          background-color: #aaa;
+          height: 90vh;
+          width: 200px;
+          padding-top: 20px;
+          display: block;
+          z-index: 1;
+          transform: translateX(-230px);
+          transition: .6s ease-in-out;
+     }
+     .navbar ul.show{
+          transform: translateX(-20px);
+     }
+     .navbar ul li{
+          text-align:right;
+     }
+     .social{
+          margin-top: 40px;
+     }
+     
+}
+
+@media(max-width:500px){
+     
+     .container{
+          height:fit-content;
+     }
+   
+    .content h1{
+         font-size: 20px;
+    }
+ 
+.navbar ul li ul{
+     width: 120px;
+     margin-left:8px;
+     height: 200px;
+}
+  .navbar ul li{
+          text-align:right;
+     }
+     .container .boxes{
+          grid-template-columns: 1fr;
+     }
+     .social{
+          height: fit-content;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+           margin-bottom: 10px;
+     }
+     .social .facebook{
+           width: 60%;
+     }
+     .footer .main-footer{
+          grid-template-columns: repeat(3,1fr);
+     }
+}
+@media(max-width:500px){
+     .container{
+          height: 280vh;
+     }
+}
+
+
+
+/* 
+   @media(max-width:700px){
+        .navbar ul{
+             display: block;
+            
+             top: 0;
+             left: 0;
+             background-color: #ff7;
+             height:100vh;
+             width: 200px;
+             
+        }
+        .navbar ul li ul{
+          position: absolute;
+          background-color:red;
+          display: block;
+          width: 100px;
+          height: 200px;
+          top: 80px;
+          margin-left: 290px;
+          transform:rotate(-90deg)
+  
+     }
+     
+     .navbar ul li ul:before{
+
+         
+          top:0px;
+          left: -18px;
+          border: 30px solid;
+          border-color:transparent transparent red transparent;
+     }
+   } */

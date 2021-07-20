@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port folio</title>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+     
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet">
+  
+
+    <link rel="stylesheet" href="css/my1.css">
+     
+     
+	<script src="js/my.js"></script>
+</head>
+<body>
+    <!-- top-header start -->
+    <section class="top">
+       <nav>
+           <a href="index1.html"><img  class="logo" src="Picture/you.jpeg" alt=""></a>
+           <div class="nav-links" id="nav-links">
+
+            <i onclick="hideMenu()"class="fa fa-times fa-3x"></i>
+               <ul>
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">About</a></li>
+                   <li><a href="#">Contact</a></li>
+                   <li><a href="#">Services</a></li>
+                   <li><a href="#">Course</a></li>
+               </ul>
+           </div>
+           <i onclick="showMenu()" class="fa fa-bars fa-3x"></i>
+       </nav>
+       <div class="text-top ">
+         <h1 class="top-heading">There you go</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Eligendi temporibus molestias non similique eaque quidem, aut quis recusandae, hic quas delectus ducimus illo soluta iure, saepe beatae, nisi exercitationem corrupti odio. Voluptatibus sint officiis illo quam veniam cumque nemo omnis quidem rem fuga eaque ducimus animi, aperiam iure, temporibus, a praesentium facere eos maxime! Nam mollitia reprehenderit consectetur, minus pariatur. Sit cumque molestiae reiciendis labore ipsa pariatur id veritatis tenetur harum fugiat necessitatibus magni error doloremque vero vitae, aperiam libero ullam sunt nesciunt dolores quam asperiores! Magni ratione neque, quas explicabo harum exercitationem quia ducimus omnis illum, libero. Quos, voluptatum?</p>
+         <a  class="btn" href="#">read more</a>
+       </div>
+    </section>
+    <!-- top-header end -->
+
+    <script>
+       var navlinks = document.getElementById("#nav-links");
+  function showMenu(){
+    navlinks.style.right ="0";
+  }
+
+  function hideMenu(){
+    navlinks.style.right="-200px"; 
+  }
+
+    </script>
+    </body>
+</html>

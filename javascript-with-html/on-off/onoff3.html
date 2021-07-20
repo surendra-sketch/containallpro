@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Domconcept</title>
+	<style>
+		img{
+			height: 400px;
+			width: 400px;
+		}
+		button{
+			width: 80px;
+			height:30px ;
+			background-color:#d9f40f;
+		}
+	</style>
+</head>
+<body>
+	<center>
+		<img id="myimage" src="pic/bulboff.jpeg" alt=""> <br><br>
+		<button id="one">click for on</button>
+		<button id="offf">click for off</button>
+		<button id="col">bodycolor</button>
+	</center>
+	<script>
+		var on = document.querySelector('#one');
+		on.addEventListener('click',function() {
+			document.querySelector('#myimage').src ='pic/bulbon.jpeg'
+		});
+		var onn = document.querySelector('#offf');
+		onn.addEventListener('click',function() {
+			document.querySelector('#myimage').src ='pic/bulboff.jpeg'
+		});
+
+		var but = document.querySelector('#col');
+ 		but.addEventListener('click',function(){
+ 			var bod = document.querySelector('body');
+ 			bod.style.backgroundColor ='red'
+ 		});
+
+ 		var makecolor = ()=>{
+ 			var r =Math.floor(Math.random() * 255);
+ 			var g =Math.floor(Math.random() * 255);
+ 			var b =Math.floor(Math.random() * 255);
+ 			return 'rgb(${r},${g},${b})';
+ 		}
+ 			
+
+	</script>
+
+</body>
+</html>
+

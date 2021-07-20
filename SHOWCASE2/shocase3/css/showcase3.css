@@ -1,0 +1,93 @@
+/* body{
+ 	background-color:#ccc;
+ }
+
+ .top-container{
+  display:grid; 
+  grid-template-areas: 
+  "showcase showcase top-box-a"
+   "showcase showcase top-box-b";
+   grid-gap: 20px;
+ }
+
+ .showcase{
+           grid-area: showcase ;
+           background-color: red;
+ }
+ .top-box-a{
+ 	background-color: green;
+ 	grid-area: top-box-a ;
+
+ }
+
+ .top-box-b{
+ 	background-color: yellow;
+ 	grid-area: top-box-b ;
+
+ }*/
+
+
+ .container{
+  margin-top: 40px;
+ 	display: grid;
+ 	grid-gap: 10px;
+ grid-template-areas: 
+ " top show show boxa"
+ " top show show boxb";
+ color: #fff;	
+
+ }
+
+ .show{
+     grid-area: show;
+     background-color: #654654;
+     color: #fff;
+      text-align: center;
+ }
+ .top{
+ 	 /*text-align: center;*/
+ 	grid-area:top;
+ 	background-color: #646383;
+ 	/*font-size: 1.9rem;*/
+ }
+ .boxa{ grid-area: boxa;
+ 	 text-align: center;
+ 	background-color: #646383;
+ 	font-size: 1.5rem;
+
+ }
+ .boxb{
+ grid-area: boxb;
+ background-color: #687576;
+ font-size: 1.5rem;
+  text-align: center;
+
+ }
+
+
+ .li{
+ 	list-style: none;
+ 	/*padding-left: 2px;
+ /*	margin: 0;*/*/
+ }
+
+ .li ul li {
+ 	position:relative;
+ 	align-items: left;
+ 	align-content: left;
+  
+	 } 
+
+li  a{
+ 	 
+ 	/*text-decoration: none;*/
+  color:#fff;
+ 	 
+ }
+
+li  a:hover{
+ 	 background-color: red;
+ 	/*text-decoration: none;*/
+  color:#fff;
+ 	 
+ }

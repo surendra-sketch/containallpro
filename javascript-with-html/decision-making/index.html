@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>button</title>
+     <style>
+          body{
+               width: 80%;
+               margin: auto;
+          }
+     </style>
+</head>
+<body>
+   <button id="btn">click</button>
+   <h1 style="font-size:3rem ; background-color: red;" class="display">display</h1>  
+   <script>
+       
+ 
+        
+     let ji = 0;
+     while(ji <= 100){
+          ji+=1;
+          // console.log(ji);
+          
+     }
+
+     function my(){
+          const a = 10;
+          const b = 10;
+          const c = a+b;
+          const newColor = `abc(${a},${b},${c})`;
+          document.querySelector('.display').innerHTML = newColor;
+ console.log(newColor);
+          // console.log(c);
+     };
+     // my();
+
+
+
+
+          var btnn = document.querySelector("#btn");
+          btnn.addEventListener('click', function () {
+               document.body.style.backgroundColor = "#0ff7";
+               document.querySelector(".display").innerHTML = my();
+               document.querySelector(".display").style.backgroundColor = "#600";
+               document.querySelector(".display").style.color = "#fff";
+          });
+          
+          
+
+
+
+
+
+
+
+     // console.log(ji , "hell");
+
+
+     // let myarray = ["heloo", "jimmy"," ikiki"];
+     // myarray.push("ijijiji");
+     // console.log(myarray);
+     // let hi = myarray;
+     // let myobj = {
+     //      namee : "rakesh",
+     //      age:19,
+     //      father : " radhe"
+     // };
+     // console.log(myobj)
+     // console.log(myobj.namee,myobj.age,myobj.father);
+     // for( let i=0; i<=myarray.length; i++){
+     //      console.log(myarray[i]);
+     // }
+     
+     // myarray.pop("huhuiu")
+     // console.log(myarray)
+
+
+   </script>
+</body>
+</html>

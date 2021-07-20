@@ -1,0 +1,145 @@
+body {
+  background-color: #ccc;
+}
+/*top container start*/
+.top-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 2fr;
+  grid-template-areas:
+    "showcase showcase  top-box-a"
+    "showcase showcase top-box-b"
+    "showcase showcase top-box-c";
+  background-color: #44ef32;
+  color: #fff;
+  text-align: center;
+}
+.btn {
+  background-color: #000;
+  color: #0af;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+.btn:hover {
+  background-color: #000;
+  color: blue;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.6rem;
+  padding-top: -20px;
+}
+.olo {
+  font-size: 3rem;
+}
+
+.top-box-a p {
+  font-size: 1.5rem;
+  color: #eef;
+}
+.top-box-b p {
+  font-size: 1.5rem;
+  color: #eef;
+}
+
+.top-box-c p {
+  font-size: 1.5rem;
+  color: #eef;
+}
+
+.ol {
+  color: #f43e38;
+}
+
+.showcase {
+  grid-area: showcase;
+  background-color: pink;
+  background: url("../images/imagehtml.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding-top: 50px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.top-box-a {
+  grid-area: top-box-a;
+  background-color: red;
+}
+
+.top-box-b {
+  grid-area: top-box-b;
+  background-color: green;
+}
+.top-box-c {
+  grid-area: top-box-c;
+  background-color: #f45356;
+}
+
+/*top container end*/
+
+/*boxes start*/
+
+/*boxes end*/
+
+/*footer*/
+.foot {
+  background-color: pink;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  text-align: center;
+}
+h4 {
+  font-size: 3rem;
+  box-shadow: 20px 20px 40px red;
+  border-radius: 100%;
+}
+h4:hover {
+  font-size: 3rem;
+  box-shadow: 20px 20px 40px red;
+  border-radius: 100%;
+  transform: translateY(-20px);
+}
+
+.foot li {
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  list-style: none;
+  font-size: 2rem;
+  padding: 10px;
+  box-shadow: 20px -20px 60px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.foot a {
+  text-decoration: none;
+  color: #ccc;
+}
+.foot li:hover {
+  text-decoration: none;
+  background-color: #ff0400;
+  color: #fff;
+  list-style: none;
+  font-size: 2rem;
+  padding: 10px;
+  box-shadow: 20px -20px 60px;
+  transform: translateY(-10px);
+  transform: ;
+}
+
+.foot a:hover {
+  text-decoration: none;
+  color: #ff0400;
+}
+
+.mid {
+  text-align: center;
+  background-color: pink;
+}

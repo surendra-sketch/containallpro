@@ -1,0 +1,1 @@
+const=prompt("hello this page can be harmful for your device");

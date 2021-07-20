@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>register</title>
+<style>
+
+	form{
+		height: 80vh;
+		margin: 30px;
+		background-color: #ddd;
+	}
+	label{
+		 margin-top: 10px;
+	}
+	input{
+		margin:10px;
+	}
+
+	.mi{
+		padding: 7px;
+		 
+	}
+
+	input[type="submit"]{
+		width:100px;
+		background-color: #f00;
+		padding: 5px;
+		margin-left: 60px;
+		border-radius: 20px;
+		color: #fff;
+		font-size: 1rem;
+		font-weight: bold;
+		border: 4px solid #555;
+		/*background:transparent;*/
+
+
+	}
+	/*input[type="Email"],
+ input[type="password"]
+input[type="text"]
+input[type="submit"]
+ input[type="number"]
+  input[type="Date"] {
+	border:none;
+	border-bottom: 3px solid #000 ;
+	background: transparent;
+	 outline: none;
+	 height:px;
+	 color: #222;
+	 font-size: 15px;
+
+}*/
+
+span{
+	position:relative;
+	margin:10%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 20px;
+	text-align: center;
+}
+</style>
+
+</head>
+<body>
+	<h1><a href="index3.html">Home</a></h1>
+	<form action="#">
+		 <div class="mi">
+		<label for="#"> Name :<input type="text"> </label> <br>
+		<label for="#">Last Name :<input type="text"> </label><br>
+		<label for="#"> Email :<input type="Email" required="" placeholder="enter your email"> </label>
+		<br>
+
+		<label for="">Gender :
+		Male <input type="radio" name="ji">
+		 Female<input type="radio" name="ji"> 
+		 Other<input type="radio" name="ji"> 
+		 </label><br>
+		<label for="">Mobile No :<input type="number"></label> <br>
+		</label><br>
+		<label for="">Password :<input type="Password"></label> <br>
+
+		</label><br>
+		<label for="">Date :<input type="Date"></label> <br>
+
+		<label for="">Time :</label><input type="Time"></label>
+
+		 <input type="submit" value="Sign In"></br>
+
+		 </div>
+
+		 <span><a href="#">forget password</a> <a href="#">new user</a></span>
+	</form>
+</body>
+</html>

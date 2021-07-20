@@ -1,0 +1,402 @@
+body{
+	 background:linear-gradient(to top, #aaa,#eee);
+}
+/*
+.top-text{
+	width: 500px;
+	height: 200px;
+	overflow-y: scroll;
+}
+*/
+/* .div1{
+ 	 
+ 	height:150vh;
+ 	background:linear-gradient(to right, #6f2 ,#f56);
+
+ }
+
+ .div2{
+ 	height: 600px;
+ 	width: 600px;
+ 	border-radius: 300px;
+ 	background:linear-gradient(to bottom, #ff2 ,#f56);
+    position:relative;
+ }
+
+ .div3{
+ 	height: 400px;
+ 	width: 400px;
+ 	border-radius: 200px;
+ 	background:linear-gradient(to bottom, #9f0 ,#00a);
+    position:absolute;
+    margin: 300px;
+    bottom:300;
+   
+ }
+ .div4{
+ 	height: 200px;
+ 	width: 200px;
+ 	border-radius: 100px;
+ 	background:linear-gradient(to bottom,#9f0 ,#00a);
+    margin-left:700px;
+    position:absolute;
+
+ }
+ .div5{
+ 	height: 100px;
+ 	width: 100px;
+ 	border-radius: 100px;
+ 	background:linear-gradient(to bottom, #214 ,#7f5);
+    position:absolute;
+     margin-top:-160px;
+     margin-right:600px;
+   /*  animation: divfive 4s  linear infinite;*/
+ }*/
+
+ .header{
+ 	position:absolute;
+ 	height: -100vh;
+ 	top: 0;
+ 	background-position:transparent;
+ }
+
+nav{ 
+    
+	display: flex;
+	 justify-content: space-between;
+	 padding: 2%  6%;
+}
+
+ nav{ 
+ 	background: fixed;
+    display:flex;
+    padding: 2% 4%;
+    border-radius: 5px;
+    justify-content: space-between;
+     background:linear-gradient(to top, #aaa,#ddd);
+ /*  background-color: #aaa;*/
+}
+.logo{
+	font-size:1.5rem; 
+	height: 100px;
+	width: 100px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	border: 2px solid #000;
+	border-radius: 50px;
+	background-color: #eee;
+
+
+}
+.logo h1{
+	 padding: 2%  6%;
+	 font-size: 1.5rem;
+}
+.logo{
+ 	text-align: center;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100px;
+    background-color: #6dd;
+ }
+
+nav .brand{
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 1px;
+  text-transform: uppercase;
+  font-size: 22px;
+   margin-left:-50px;
+}
+
+.links{
+
+    position: relative;
+	text-align: right;
+
+}
+
+.links ul{
+	list-style: none;
+	
+}
+
+.links ul li{
+  display: inline-block;
+  padding-left: 35px;
+
+}
+
+.links ul li a{
+	text-transform: uppercase;
+   	text-decoration: none;
+    background-color: #aaa;
+    border-radius:5px;
+   	font-size: 1rem;
+ 	color: #fff;
+ 	padding: 10px;
+}
+
+.links ul li a:hover{
+	background-color: #000;
+	color: #fff;
+
+
+}
+ .home
+ {  border-radius:6px;
+ 	background-color: #000;
+ 	color: #fff;
+ }
+
+.top-text{
+	padding:2% 6%; 
+	/*overflow-y: scroll;
+	width: 400px;
+	height: 100px;
+*/
+/*  background-image: linear-gradient(rgba(0,168,255,0.1),rgba(0,168,255,0.2));*/
+  background-size: cover;
+  background-position: center;
+  color: #111;
+
+}
+
+
+.top-heading{
+  text-align: center;
+  font-size: 2rem;
+}
+#show{
+	display: none;
+}
+
+
+.fa{
+	display: none;
+}
+ .fa-home ,.fa-user,.fa-magic{display: block;}
+
+.btn{
+  border: 2px solid blue;
+  border-radius: 50px;
+  width: 100px;
+  height: 30px;
+  background-color: #6dd;
+  color:#f00;
+  font-size:15px;
+  font-weight:bold;
+ 
+}
+.top-text-align{
+	margin-top: -60px;
+}
+
+
+
+
+
+/*midle content strat*/
+.mid{
+	position: relative;
+	margin:0% 0%;
+	text-align: center;
+}
+ .container{
+ 	 
+ 	 background-color:#1cc;
+ 	 justify-content: center;
+ 	 align-items: center;
+
+ }
+ .row{
+ 	 display: flex;
+ 	position: relative;
+ 	 
+ 	
+ }
+
+
+  .midle-content  {
+  position:relative;
+  margin:10px;	 
+  background-color:#ddd;
+  border-radius:4px;
+  border:medium none;
+  padding:10px;
+  
+  
+  }
+
+/*midle content end*/
+
+
+/*gallery start*/
+ .gallery{
+  
+ 	display: grid;
+ 	grid-gap: 10px;
+ 	grid-template-areas:
+ 	' pic  pic  pic gallery-texta '
+ 	' pic  pic  pic  gallery-texta'
+ 	' pic  pic  pic gallery-textb' ;
+ 	  padding: 2% 1%;
+ 	  
+ }
+ .pic{
+ 	grid-area:pic; 
+ 	 min-height: 200px;
+/* 	background: url(../Picture/ocean.jpg)  linear-gradient(rgba(0 ,0,225,0.9),rgba(0 ,0,225,0.1)) ;
+*/ 	position: center;
+ 	background-image: 
+ 	linear-gradient(rgba(0,168,255,0.4),rgba(0,168,255,0.9)),
+  url("../Picture/ocean.jpg");
+ 	background-size: cover;
+ 	text-align: center;
+ 	color: #fff;
+ 	display: flex;
+ 	flex-direction: column;
+ 	 
+ }
+ .pic h1{
+ 	font-size: 2.6rem;
+ 	padding: 2% 6%;
+ 	text-transform: uppercase;
+ 	word-spacing:1rem;
+ }
+  .pic-text{
+ 	font-size:1.5rem;
+ 	padding: 0% 4%;
+
+ }
+
+ .gallery-texta{
+ 	grid-area: gallery-texta;
+ 	background-color: #ddd;
+ 	padding: 2% 6%;
+ }
+.gallery-textb{
+		padding: 2% 6%;
+	grid-area: gallery-textb;
+	background-color: #ddd;
+}
+ 
+
+ .boxes{
+ 	display: grid;
+ 	grid-template-columns: repeat(auto-fit,minmax(200px ,1fr));
+ 	grid-gap: 20px;
+ 	padding: 2% 1%;
+ 	position:relative;
+ 	background-color: #bbb;
+   
+ }
+
+ .box{
+ 	text-align: center;
+ 	padding: 5px;
+ 	background-color: #ddd;
+ 	border-radius: 2px;
+
+ }
+
+ .foot{height: 100vh;
+	 position:absolute;
+	 background-color: rgba(147, 255, 147, 0.867);
+ }
+
+  
+  
+ 
+/* footer end */
+
+/*bottom end*/
+
+
+
+
+
+@media(max-width: 768px){
+
+	.logo{
+	font-size:1rem;
+	 
+	 
+}
+ nav .brand{
+   margin-left:-30%;
+  }
+
+	.links{
+		height: 100vh;
+		position:absolute;
+		width: 200px;
+		background-color: #aaa;
+		top: 0;
+		right:-200px;
+		text-align: left;
+		transition:.4s;
+		z-index: 1;
+
+	}
+	.links ul li{
+		position: relative;
+		display: block;
+		text-align: left;
+		cursor: pointer;
+		padding-top: 20px;
+		margin-left:-35px;
+		 
+	}
+
+	.fa{
+		cursor: pointer;
+		 display: block;
+	}
+
+	.top-text-align{
+	margin-top:-25px;
+}
+
+	.mid{
+	margin:4% 0%;
+	text-align: center;
+
+}
+  .row{
+  	display:block;
+  	flex-direction: column;
+  }
+
+  /*gallery start*/
+ .gallery{
+ 	display: flex;
+ 	flex-direction: column;
+
+ }
+
+  .top-container{
+
+  	height: 200px;
+  	width: 200px;
+  	flex-direction: column;
+  	display: flex;
+  }
+
+ 
+  /*gallery end*/
+/* 
+  .boxes{
+	  display: flex;
+	  flex-direction: column;
+	  
+  }
+  .box{
+	margin:0% 5%;
+	align-items: center;
+	justify-content: center;
+	  max-width:100%;
+  } */
+}

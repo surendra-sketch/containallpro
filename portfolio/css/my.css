@@ -1,0 +1,178 @@
+
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background-color: rgb(155,205,180);
+}
+/*.top{
+	background-image: url('../Picture/you.jpeg');
+	height: 400px;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+    position:relative;
+}
+
+ul{
+	display: grid;
+	grid-template-columns: repeat(6,1fr);
+	list-style: none;
+	 
+}
+ul,li,a{
+	text-decoration: none;
+	color: red;
+	background-color:rgb(43,233,189);
+}
+.verytop{
+	background-image: url('../Picture/you.jpeg');
+
+}*/
+#logo{
+	height: 100%;
+	width: 100%;
+    position: relative;
+	margin-top: 16px;
+	 
+	 padding: auto;
+	height: 60px;
+	width: 60px;
+	border-radius: 100px;
+}
+.header{
+	height: 70vh;
+	 
+	 background-image: linear-gradient(rgba(110,18,255,0.7),
+	 	rgba(0,18,255,0.7)),
+  url("../Picture/you.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+
+nav ul li{
+	display: inline;
+	 margin-right: 20px;
+	 margin-top: -23px;
+	float: right;
+}
+
+ul li a{
+	 text-decoration: none;
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+}
+
+ul li a:hover{
+	background-color: #5d5d2f;
+	background-size: 30px;
+	/* text-decoration: ; 
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;*/
+}
+
+.top-heading{
+	 padding: 20px 30px;
+	color: #fff;
+	font-style: italic;
+	font-size: 40px;
+}
+.text{
+	padding: 20px 30px;
+	color: #fff;
+	font-size: 25px;
+}
+
+.top-btn{
+	font-weight: bold;
+	font-size:20px;
+	background-color: white;
+	border-radius: 2px solid black;
+	 
+
+}
+
+
+.mid-top{
+
+	/*display: flex;*/
+	text-align: center;
+	padding: 10px;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+	
+	
+
+}
+.mid-head{
+	font-size: 30px;
+	color: #fff;
+}
+.mid-block{
+	background-color: #5f5faf;
+	padding: 8px;
+
+}
+.mid-btn{
+	background-color: black;
+	font-size: 16px;
+	color: #fff;
+   margin-top: 7px;
+}
+.mid-btn:hover{
+	background-color:#5d5d8f;
+	font-size: 16px;
+	color: #fff;
+   margin-top: 7px;
+}
+
+.abt{
+	padding: 20px 20px;
+	text-align: center;
+
+
+}
+
+.img-abt{
+	height:250px;
+	width:250px;
+	border-radius: 150px;
+	margin-top: 10px;
+	margin-left: 45%;
+	background-size: cover;
+	background-position: center;
+	 
+}
+#abbt{
+	font-size: 30px;
+	padding: 20px 20px;
+}
+.ji{
+	margin-left: 55%;
+}
+@media(max-width: 700px){
+	.ji{
+		position:absolute;
+		display: block;
+		background-color: #2f2f26;
+		text-align: center;
+	}
+
+	.ji .list{
+		display:grid;
+		grid-template-rows: repeat(5,1fr);
+		 
+		margin-right:-200px;
+		height: 70vh;
+
+	}
+
+	.list li{
+		background-color: #2424ff;
+		text-align: left;
+	}
+}

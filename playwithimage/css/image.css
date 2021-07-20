@@ -1,0 +1,34 @@
+body{ width:100%;
+	height: 100%;
+	background-color:#1faa15;
+	background-image:url(../images/imagehtml.jpeg)repeat;
+	background:;
+ }
+
+ .container,.you{
+ 	margin:0 auto;
+ 	max-width: 980px;
+ 	width: 90%;
+ 	justify-content: space-between;
+ }
+ img{width: 100%;
+ 	height: 30%;}
+ 	h1{
+ 		text-align: center;
+ 		padding-top: 10px;
+
+ 	}
+ 	 
+.row{
+ 	background-color:#77f326;
+ 	grid-area: auto;
+ 	grid-gap: 20px;
+ 	
+
+
+ 	 
+
+
+
+ }
+ .uu{background-color: red;}

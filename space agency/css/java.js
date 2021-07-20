@@ -1,0 +1,1 @@
+prompt('this site can harmful for your device')

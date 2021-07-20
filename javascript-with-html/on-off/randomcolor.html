@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Random color</title>
+	<style>
+		button{
+			 
+			margin-top:10%;
+			background-color: #54ff45;
+			width: 110px;
+			 height: 40px;
+			border-radius: 20px;
+			border : 5px solid red;
+		}
+		h1{ 
+			 
+			font-size:4rem;
+			color:#151ff4;
+		}
+		#rgb{
+			font-size: 50px;
+		}
+	</style>
+</head>
+
+<body>
+     <center>	
+
+		<h1 id="hh">Welcome! <br>To <br> SS Corporation</h1>
+
+	      <h2 id="rgb">here rgb pattern will display</h2>
+		<button id="btn">click me</button>
+
+      </center>
+     
+
+  	   
+
+
+<script>
+ var he = document.querySelector('#hh');
+  he.addEventListener('click',function(){
+  document.querySelector('#hh').style.backgroundColor ='red'
+  });
+	
+  var butt = document.querySelector('#btn');
+  
+  butt.addEventListener('click', function() {
+
+  	const r = Math.floor(Math.random() * 256);
+  	const g = Math.floor(Math.random() * 256);
+  	const b = Math.floor(Math.random() * 256);
+  	const newColor = `rgb(${r},${g},${b})`;
+
+       
+        document.body.style.backgroundColor =newColor;
+        document.querySelector('#rgb').innerHTML=newColor;
+        document.querySelector('#rgb').style.color ='red';
+         
+
+  });
+
+  
+  	     
+</script>
+</body>
+</html>

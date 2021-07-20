@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>index2</title>
+	
+	<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+	<link rel="stylesheet" href="css/my2.css">
+
+</head>
+<body>
+
+	<section class="headr">
+		<nav class="navbar">
+			<a href="index2.html"><h1 class="logo">logo <br>here</h1></a>
+			<div class="brand"><h1>brand name</h1></div>
+			<div class="navlinks" id="nav-links">
+				 <i onclick="hidemenu()"class="fa fa-times fa-2x"></i>
+				<ul>
+					<li><i class="fa fa-home fa-2x"></i><a href="#">home</a></li>
+					<li><i class="fa fa-user fa-2x"></i><a href="#">about</a></li>
+					<li><a href="#">home</a></li>
+					<li><a href="#">home</a></li>
+					<li><a href="#">home</a></li>
+										
+				</ul>
+			</div>
+			<i onclick="showmenu()" class="fa fa-bars fa-2x"></i>
+		</nav>
+
+		<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ea quis! Facere, dolorem rerum nulla, explicabo dignissimos veniam quaerat aliquid at nobis quos et voluptatum facilis est impedit soluta quo fuga atque, voluptatem provident, quis quasi. Tempora est  enetur perferendis, aut, exercitationem possimus vel.</p>
+	</section>
+
+	<div class="display">
+		<button class="btn" id="btn-content">
+			Read More
+		</button>
+		<p id="show">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, ea quis! Facere, dolorem rerum nulla, explicabo dignissimos veniam quaerat aliquid at nobis quos et voluptatum facilis est impedit soluta quo fuga atque, voluptatem provident, quis quasi. Tempora est impedit harum saepe quod voluptatum maxime mollitia neque, minima, voluptates, tenetur hic ipsam commodi culpa illo atque maiores possimus molestias corrupti at quam. Deleniti incidunt blanditiis error quasi eum minus harum porro earum, tenetur excepturi nemo fuga quidem quibusdam, consectetur a ipsum, iure aperiam molestiae sit mollitia repellat dicta? Deleniti quis ab cumque ullam asperiores delectus tenetur perferendis, aut, exercitationem possimus vel ipsum dolor sit amet consectetur adipisicing elit. Aliquam esse nemo, repellat dolores laudantium labore numquam cumque! Deleniti ex, dignissimos cupiditate vero suscipit ad dolore praesentium. Qui laudantium in,
+			<br>
+        <button class="btn" id="show-less">show less</button>
+		</p>
+	</div>
+ 
+
+    <script>
+		
+          var navlinks =document.getElementById("nav-links");
+          function showmenu() {
+          	navlinks.style.right = "0";
+          	
+          }
+          
+          function hidemenu() {
+          	navlinks.style.right = "-200px";
+          	
+          }
+
+
+          //for content display 
+
+          var ctn = document.querySelector('#btn-content');
+
+          ctn.addEventListener('click',function(){
+          document.querySelector('#show').style.display='block';
+          document.querySelector('#btn-content').style.display='none';
+
+          });
+
+          var less =document.querySelector('#show-less');
+
+          less.addEventListener('click',function(){
+          	
+          	document.querySelector('#show').style.display='none';
+             document.querySelector('#btn-content').style.display='block';
+
+          });
+            
+            
+
+	</script>
+	
+</body>
+</html>

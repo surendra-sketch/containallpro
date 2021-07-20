@@ -1,0 +1,128 @@
+ 
+.list{
+	width: 95%;
+	display:grid;
+	height: 100%;
+	grid-template-columns:repeat(5,1fr);
+	grid-column-gap:20px;
+	margin-right:;
+}
+ul, li ,a{
+	display: block;
+    background-color:pink;	 
+	width: 90%;
+	height: 30px;
+	text-decoration: none;
+}
+ li, a{
+ 	text-decoration: none;
+ }
+
+ .top-container{
+ 	width: 100%;
+ 	display: grid;
+ 	grid-template-areas:;
+ 	grid-template-columns:5fr 20fr 8fr;
+ 	grid-template-rows: 33fr 1fr;
+ 	grid-column-gap: 5px;
+ 	border:solid black 2px;
+
+   }
+
+   .div1{
+   	background-color:green;
+   	border-radius: 5px;
+
+
+   }
+  .div2{
+   	background-color:#ff4003;
+   	border-radius: 5px; 
+   	text-align: center;
+
+   
+   }
+.div3{
+   	background-color:#230fe3;
+   	border-radius: 5px;
+   }
+.divi{
+   	background-color:#9340e3;
+   	border-radius: 5px;
+   	grid-column: 1/4;
+   	height: 200px;
+   }
+.div5{
+   	background-color:#23ffe3;
+   	border-radius: 5px;
+   }
+.divli, .div1, {
+	position: relative;
+	display: grid;
+	align-items: center;
+	display: block;
+	background-size: 20%;
+	background-color: red;
+	background-attachment: fixed;
+
+}
+.insidediv2 {
+	margin-top: 20px;
+	position: relative;
+	width: 100%;
+	 
+	background-color: yellow;
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+
+	grid-gap: 2px;
+	 
+	padding-top: 20px;
+}
+
+/*.list li a{
+	background-color: #ccc;
+	text-align: center;
+	text-decoration: none;
+	font-size:20px;
+}
+.top-container .inside{
+	width: 100%;
+	height: 100%;
+	height: 600px;
+	background-color: red;
+	display: grid;
+	grid-gap:10px;
+grid-template-rows: 1fr 1fr;
+
+}
+.inside { display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: repeat(3,1fr);
+     grid-gap: 20px;
+     background-color: green;
+     grid-column-gap: 2rem;
+}
+ */
+
+/*.list a li{
+	background-color: red;
+	text-decoration: none;
+	text-align: center
+}
+.list ul a {
+	background-color: red;
+	text-decoration: none;
+	text-align: center;
+}
+
+.list li a{
+	background-color: green;
+	text-decoration: none;
+	text-align: center;
+}*/
+/* .navar{
+	display:grid;
+	grid-template-columns:repeat(4,1fr);}
+
+}*/

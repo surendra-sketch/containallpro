@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Calculator</title>
+<style>
+body {
+background-image: url("file:///storage/emulated/0/Download/images-1.jpg");
+height:100vh;
+width:100vw;
+padding:0;
+margin:0;
+background-size: cover;
+justify-content: center;
+align-items: center;
+display:flex;
+}
+.calculator {
+height:400px;
+width:300px;
+background-color:red;
+box-sizing: border-box;
+box-shadow: 3px 3px 30px #444;
+overflow: hidden;
+}
+.calculator .input-container {
+width:100%;
+height:100%;
+background-color:#222;
+position:relative;
+}
+.calculator .input-container input {
+width: 80%;
+height: 40px;
+margin-top:30px;
+background-color:orange;
+border:none;
+color:#fff;
+text-align: center;
+}
+.calculator .input-container button {
+width:58.4px;
+height: 40px;
+background-color:orange;
+border:none;
+color:#555;
+font-size:15px;
+}
+.calculator .input-container .val {
+width:120px;
+height:50px;
+position: absolute;
+right:30px;
+
+}
+</style>
+</head>
+<body>
+<div class="calculator">
+<div class="input-container">
+<center>
+<input type="text" class="output" disabled>
+<br><br>
+<button onclick="calcu('*')">x</button>
+<button onclick="calcu('/')">/</button>
+<button onclick="calcu('-')">-</button>
+<button onclick="cl()">c</button><br><br>
+<button onclick="calcu(9)">9</button>
+<button onclick="calcu(8)">8</button>
+<button onclick="calcu(7)">7</button>
+<button onclick="calcu('+')">+</button><br><br>
+<button onclick="calcu(6)">6</button>
+<button onclick="calcu(5)">5</button>
+<button onclick="calcu(4)">4</button>
+<button onclick="calcu('.')">.</button><br><br>
+<button onclick="calcu(3)">3</button>
+<button onclick="calcu(2)">2</button>
+<button onclick="calcu(1)">1</button>
+<button onclick="calcu(0)">0</button><br><br>
+<button class="val" onclick="val()">=</button>
+</center>
+</div>
+</div>
+<script>
+function calcu(numeric) {
+document.querySelector(".output").value = document.querySelector(".output").value + numeric;
+}
+function val() {
+document.getElementById("output").value = eval(document.getElementById("output").value);
+}
+function cl() {
+document.getElementById("output").value = "";
+}
+</script>
+
+</body>
+</html>

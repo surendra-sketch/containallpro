@@ -1,0 +1,22 @@
+.yes{
+	font-size:90px;
+	color: blue;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+button{
+	background-color: #56f554;
+	color:blue;
+	size: 400px;
+	border:9px solid red;
+}
+.bi{
+	size: 300px;
+}
+.box{
+	 width: 200px;
+	 height: 200px;
+}

@@ -1,0 +1,83 @@
+body {
+  background-color: ;
+}
+/*head section*/
+.head {
+  width: 100%;
+  height: 100%;
+  background-color: #5dbdaf;
+  display: grid;
+  /*grid-template-columns:repeat(3,1fr);*/
+  grid-template-columns: 30% 90%;
+  text-align: center;
+}
+
+.logo-image {
+  height: 80px;
+  width: 80px;
+  margin-left: -60px;
+  border-radius: 100%;
+  /*grid-row: 1/3;*/
+  background-color: #fff;
+  padding: 5px;
+}
+.company-name {
+  font-size: 2rem;
+}
+.nav {
+  height: 100%;
+  margin-top: -26px;
+  padding-bottom: 10px;
+  background-color: #5dbdaf;
+  font-size: 1.5rem;
+}
+.nav ul {
+  color: red;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.nav ul li {
+  list-style: none;
+  text-align: center;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: #00f;
+}
+.nav ul li a:hover {
+  text-decoration: none;
+  background-color: #cdf;
+}
+
+/*head section end*/
+.main-heading {
+  font-size: 3rem;
+  color: #fff;
+}
+.heading {
+  height: 60vh;
+  width: 100%;
+  padding-top: 100px;
+  text-align: center;
+  background: url("../images/gii.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.body-link {
+  font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  .nav ul {
+    display: block;
+    background-color: #d34;
+    text-align: left;
+    margin-left: -400px;
+  }
+
+  .nav ul li a {
+    color: #fff;
+  }
+}

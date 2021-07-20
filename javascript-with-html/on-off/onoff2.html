@@ -1,0 +1,49 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ 	<meta charset="UTF-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<title>content</title>
+ 	<style>
+ 		.call{
+ 			height: 200px
+ 			width:100px;
+ 			background-color:#5454fd;
+ 			font-style: italic;
+ 			font-weight: bold;
+ 			font-size: 60px;
+ 		}
+
+ 		button{
+ 			background-color:#fd00ff;
+ 			font: 2em sans-serif;
+ 			border-radius: 50px;
+ 		}
+ 	</style>
+ </head>
+ <body>
+ 	<div>
+ 		<p class="call"> You are a silly boy</p>
+ 		
+ 		<center><button onclick="clickkk()">click Me1</button></center>
+ 		<br><br>
+ 		<center><button onclick="clickk()" id="second">click me2</button></center>
+ 		 
+ 	</div>
+ 	<script>
+ 		function  clickkk() {
+ 			document.querySelector('.call').innerHTML='Im sorry You are not  ';
+
+ 		};
+
+ 		var but = document.querySelector('#second');
+
+
+ 		but.addEventListener('click',function(){
+ 			var bod = document.querySelector('body');
+ 			bod.style.backgroundColor ='red'
+ 		});
+ 		 
+ 	</script>
+ </body>
+ </html>
